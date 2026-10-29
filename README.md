@@ -1,16 +1,13 @@
-## Hi there 👋
+# Hi, I'm Ahmed El Amir 👋 | مطور أوتوميشن
 
-<!--
-**Ahmedalamir24/Ahmedalamir24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Xiaomi Note 13 Automation Factory
+بصنع أدوات بتشتغل لوحدها وتجيب رزق حلال وانت نايم!
 
-Here are some ideas to get you started:
+### 📱 اللي عملته على موبايلي:
+- **Azkar Auto Bot** - مصنع فيديوهات HD 1080x1920 كل يوم 9PM بـ Termux + ffmpeg
+- **Auto App Opener** - بيفتح TikTok 9PM و YouTube 8AM لوحده بـ cronie
+- **Termux Wake Lock** - 6 sessions شغالة 24 ساعة!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+0 21 * * * bash ~/azkar/azkar_bot.sh  # فيديو أذكار حلال
+0 8 * * * am start -n com.google.android.youtube.HomeActivity
